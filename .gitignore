@@ -1,6 +1,5 @@
-# User config file and download list
-config.ini
-batch.txt
+# User config file
+config.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
