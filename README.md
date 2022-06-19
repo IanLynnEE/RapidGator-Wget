@@ -9,7 +9,7 @@ Please setup `config.json`:
 ```json
 {
     "email": "your-mail@gmail.com",
-    "password": "your-password",
+    "password": "your-password"
 }
 ```
 
@@ -22,7 +22,7 @@ python3 rapidgator.py
 
 For more options, please check:
 
-```bash
+```
 usage: rapidgator.py [-h] [--prefix PREFIX] [--download_list DOWNLOAD_LIST]
 
 optional arguments:
@@ -32,7 +32,7 @@ optional arguments:
                         path to the file that stores a list of urls
 ```
 
-## Limit
+## Limitation
 
--   Cannot download html files.
--   Single thread download. Premium users should download from browser directly.
+-   Download files cannot have `.html` in filenames.
+-   Single thread download.
